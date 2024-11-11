@@ -20,3 +20,14 @@ What happens if a subclass does not call super()?
 What is interfaces?
     Interfaces can have abstract methods that must be implemented by the class that implements them.
 
+Can a subclass override a private method of the superclass?
+    No, private methods are not inherited, so they cannot be overridden.
+
+Explain the concept of upcasting and downcasting in inheritance.
+    Upcasting: 
+        Assigning a subclass object to a superclass reference, allowing polymorphism. 
+        For example:
+            Animal a = new Dog();
+    Downcasting: 
+        Casting a superclass reference back to a subclass reference, typically used when the reference points to a subclass instance.
+
