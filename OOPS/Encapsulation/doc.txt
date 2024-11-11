@@ -1,0 +1,2 @@
+Encapsulation
+    Encapsulation means restricting direct access to certain details of an object and using methods to access or modify those details. This is often done with private variables and public getter and setter methods.
