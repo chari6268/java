@@ -1,0 +1,29 @@
+What is Polymorphism?
+    Polymorphism allows an object to take many forms. In Java, it is achieved through method overloading (compile-time) and method overriding (runtime).
+
+Upcasting and Downcasting in Polymorphism
+    Upcasting refers to assigning a subclass object to a superclass reference variable.
+        This is safe and is commonly used in polymorphism, as the subclass is a more specialized type of the superclass.
+        Example: 
+            Animal animal = new Dog();
+    Downcasting refers to casting a superclass reference back to a subclass type.
+        This can lead to ClassCastException if the object is not of the correct type, so it should be done cautiously.
+        You can use the instanceof operator to check whether the object is an instance of the subclass before downcasting.
+
+What is dynamic method dispatch?
+    Dynamic method dispatch is the mechanism by which Java resolves method calls at runtime, depending on the actual object type, rather than the reference type.
+
+What is the instanceof operator used for in polymorphism?
+    The instanceof operator is used to check whether an object is an instance of a particular class or interface. It is useful when downcasting to ensure type safety.
+
+Can polymorphism be achieved with static methods?
+    No, polymorphism cannot be achieved with static methods because static methods are bound at compile time. Therefore, they cannot be overridden or dispatched dynamically.
+
+Method Overloading (Compile-Time Polymorphism):
+    Same method name with different parameters within the same class.
+    Not considered "true" polymorphism by some, as it’s resolved at compile-time.
+
+Method Overriding (Run-Time Polymorphism):
+    Subclasses redefine methods of the superclass to provide specific functionality.
+    Achieves polymorphism by allowing a subclass to behave as an instance of the superclass but with customized behavior.
+
