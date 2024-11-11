@@ -1,0 +1,14 @@
+Static Keyword:
+    A keyword that indicates the method or variable belongs to the class itself rather than instances of the class.
+
+Static Variables (Class Variables):
+    A static variable is shared by all instances of the class. It is initialized only once when the class is loaded into memory and can be accessed without creating an instance of the class.
+
+Static Methods:
+    A static method can be called without creating an instance of the class. It can only directly access other static members (variables or methods) of the class.
+
+Static Block:
+    A static block is a code block that runs once when the class is loaded into memory. It is typically used for class initialization, especially when complex setup is required before the class can be used.
+
+Static Classes (Nested Static Classes):
+    In Java, an inner class can be declared as static. A static nested class does not require an instance of the outer class to be created. It behaves like a regular class but is defined inside another class.
