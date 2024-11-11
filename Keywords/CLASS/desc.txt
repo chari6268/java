@@ -1,0 +1,24 @@
+1. The class keyword is used to define a class, which is a blueprint for creating objects. 
+2. A class in Java encapsulates data (attributes) and methods (functions) that operate on the data.
+
+Access Modifiers in Classes:
+    public: The class or method is accessible from any other class.
+    private: The field or method is accessible only within the class.
+    protected: The field or method is accessible within the same package or in subclasses.
+
+Static Members:
+    A class can have static fields and methods, which belong to the class itself rather than to instances (objects) of the class.
+        Static Variables: count is shared across all instances of the Counter class.
+        Static Methods: increment() can be called without creating an instance of the class.
+
+Inner Classes:
+    Java allows you to define classes within other classes. These are called inner classes. An inner class can access the members of the outer class.
+
+Abstract Classes:
+    An abstract class is a class that cannot be instantiated on its own and is meant to be subclassed. It can have abstract methods (methods without implementation) and regular methods (with implementation).
+
+Final Classes:
+    A final class cannot be subclassed (inherited). You use the final keyword when you want to prevent any further subclassing.
+
+Enum Classes:
+    Java provides a special type of class called an enum. Enums are used to represent a fixed set of constants.
