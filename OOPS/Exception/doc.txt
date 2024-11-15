@@ -1,0 +1,50 @@
+What is an Exception?
+    An exception is an event that occurs during the execution of a program, disrupting the normal flow. Exceptions are usually caused by conditions such as dividing by zero, accessing an out-of-bound array index, or trying to open a non-existent file.
+
+Throwable
+├── Exception (Represents recoverable errors.)
+│   ├── IOException
+│   ├── SQLException
+│   └── RuntimeException
+│       ├── ArithmeticException
+│       ├── NullPointerException
+│       └── ArrayIndexOutOfBoundsException
+└── Error (Represents serious system errors)
+    ├── OutOfMemoryError
+    └── StackOverflowError
+
+What is an exception in Java?
+    An exception is an event that disrupts the normal flow of execution in a program. It is an object that encapsulates an error or other abnormal condition.
+
+What is the difference between throws and throw?
+    throw: Used to explicitly throw an exception from a method or block of code.
+    throws: Used in a method signature to declare that the method might throw an exception.
+
+What is the difference between checked and unchecked exceptions?
+    Checked exceptions: Exceptions that must be either caught or declared in the method signature (IOException, SQLException).
+    Unchecked exceptions: Exceptions that do not need to be declared or caught, typically indicating programming errors (NullPointerException, ArrayIndexOutOfBoundsException)
+
+What is a finally block? When is it executed?
+    The finally block is used to execute code that must run regardless of whether an exception occurred or not. It is typically used for resource cleanup, like closing files or database connections.
+
+What is a custom exception in Java?
+    A custom exception is a user-defined exception that extends the Exception or RuntimeException class. It is used to provide more specific error handling and messages.
+
+What happens if an exception is thrown but not caught?
+    If an exception is thrown and not caught, it propagates up the call stack. If it reaches the main method and is still uncaught, the program will terminate.
+
+What are the consequences of catching Throwable?
+    Catching Throwable can lead to unwanted behaviors, as it includes both Error and Exception objects. Errors typically represent serious problems (e.g., OutOfMemoryError) that your program cannot handle.
+
+Can we throw a checked exception without declaring it?
+    No, if a method throws a checked exception, it must either handle it or declare it using the throws keyword. Unchecked exceptions do not require this.
+
+What is the significance of the @Deprecated annotation in relation to exceptions?
+    The @Deprecated annotation marks methods that are outdated and should no longer be used. If a deprecated method throws an exception, the exception might be part of why the method is considered outdated.
+
+What are some common exceptions in Java?
+    NullPointerException: Occurs when a null reference is dereferenced.
+    ArrayIndexOutOfBoundsException: Occurs when accessing an array with an invalid index.
+    ArithmeticException: Occurs when arithmetic operations fail (e.g., dividing by zero).
+    IOException: Thrown when there is a failure during I/O operations.
+
