@@ -1,0 +1,21 @@
+What is a Method in Java?
+    It is a method is a block of code that performs a specific task. 
+    It is a set of instructions that can be executed when it is called or invoked. 
+
+Method Syntax:
+    returnType methodName(parameter1, parameter2, ...) {
+        // Method body - instructions to execute
+    }
+
+Advantages of using methods:
+    Code Reusability
+    Abstraction
+    Encapsulation
+    Easier to debug and maintain
+    Avoiding Redundancy
+
+Types of Methods in Java:
+1. Non-Static Method
+2. Static Method
+3. Constructor Methods
+4. Recursive Methods
