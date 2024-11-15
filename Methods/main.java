@@ -1,4 +1,9 @@
 class test{
+    //recursive method to find factorial of a number
+    public static int factorial(int n) {
+        if (n == 0) return 1;
+        else return n * factorial(n - 1);
+    }
     // static Method to add two numbers
     public static int add(int a, int b) {
         return a + b;
@@ -49,7 +54,8 @@ public class main{
         // Static Method
         System.out.println("Sum: " + test.add(10, 20));
 
-
+        // Recursive Method
+        System.out.println("Factorial: " + test.factorial(5));
 
     }
 }
