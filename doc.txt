@@ -1,0 +1,99 @@
+What is Encapsulation?
+    Encapsulation is the process of hiding internal details and providing a public interface for accessing and manipulating data.
+    Encapsulation is a fundamental concept in object-oriented programming.It combines data and methods into a single unit called a class.The class encapsulates the data and provides methods to interact with it.Access to the data is controlled through the class's public interface.
+    Encapsulation helps in achieving data abstraction, data hiding, and code reusability.
+    For example, a class representing a car can encapsulate its attributes like color, model, and methods like start, stop, and accelerate.
+    By encapsulating the car's internal details, we can hide the implementation and provide a simple interface for using the car.
+
+What are the technologies you know ?
+    I have knowledge of programming languages such as Java, Python, and C++. I am also familiar with web development technologies like HTML, CSS, and JavaScript.
+    Proficient in Java, Python, and C++ programming languages
+
+    Familiar with web development technologies like HTML, CSS, and JavaScript
+
+    Knowledge of database management systems like MySQL and Oracle
+
+    Experience with version control systems like Git
+
+Just in time . Which used in java program excusion
+    Just-in-time (JIT) is a feature in Java that compiles bytecode into native machine code at runtime.
+    JIT improves the performance of Java programs by reducing the time needed for compilation.
+
+    JIT is enabled by default in most Java virtual machines.
+
+    JIT can be disabled using the -Xint option.
+
+    JIT can also be configured using various options such as -XX:CompileThreshold and -XX:MaxInlineLevel.
+
+what is the use of group by in MySQL?
+How to delete the middle element of a linked list?
+what is difference between delete, trucate and drop?
+Difference between Java and JavaScript?
+Difference between multiprogramming and multitasking?
+What is cloud computing?
+    Cloud computing is the delivery of computing services over the internet, including servers, storage, databases, networking, software, analytics, and intelligence.
+    Allows users to access and store data and applications on remote servers instead of on their local devices
+
+    Provides flexibility, scalability, and cost-effectiveness for businesses
+
+    Examples include Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform
+
+What is react virtual dom?
+    React virtual DOM is a lightweight copy of the actual DOM, used for efficient updates and rendering in React applications.
+    Virtual DOM is a concept where a lightweight copy of the actual DOM is created and updated by React.
+
+    React compares the virtual DOM with the actual DOM and only updates the necessary parts for efficiency.
+
+    This helps in faster rendering and updates in React applications.
+
+What is SDLC and its phases?
+
+What do you know about tcs
+    TCS is a global IT services, consulting and business solutions organization.
+    TCS stands for Tata Consultancy Services
+
+    It is headquartered in Mumbai, India
+
+    It is one of the largest IT services companies in the world
+
+    TCS offers a wide range of services including application development, infrastructure management, and business process outsourcing
+
+    It has a presence in over 46 countries and serves clients in various industries such as banking, healthcare, and retail
+
+how to perform DB testing?
+Explain Api testing?
+    API testing is a type of software testing that involves testing the APIs (Application Programming Interfaces) of
+    an application to ensure they are working correctly and as expected.
+    API testing can be performed manually or using automated tools.
+    API testing involves testing the following aspects of an API:
+    1. API Endpoints: Testing the API endpoints to ensure they are working correctly and returning the expected response.
+    2. API Request and Response: Testing the API request and response to ensure they are correctly formatted and contain the expected data.
+    3. API Authentication: Testing the API authentication to ensure it is working correctly and users are able to access the API with the correct credentials.
+    4. API Error Handling: Testing the API error handling to ensure it is working correctly and users are able to handle errors correctly.
+
+SQL joins and there use
+    Ans. SQL joins are used to combine rows from two or more tables based on a related column between them.
+    Types of joins include INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN.
+
+    INNER JOIN returns rows when there is at least one match in both tables.
+
+    LEFT JOIN returns all rows from the left table and the matched rows from the right table.
+
+    RIGHT JOIN returns all rows from the right table and the matched rows from the left table.
+
+    FULL JOIN returns rows when there is a match in one of the tables.
+
+    Example: SELECT * FROM table1 INNER JOIN table2 ON table1.column = table2.column;
+
+what is strenght?
+    Ans. Strength is the ability to overcome challenges, persevere in difficult situations, and achieve goals.
+    Physical strength: ability to lift heavy objects, perform physical tasks
+
+    Mental strength: ability to stay focused, handle stress, make tough decisions
+
+    Emotional strength: ability to cope with emotions, maintain resilience
+
+    Strength of character: integrity, determination, courage
+
+    Strength in relationships: ability to communicate effectively, resolve conflicts
+
